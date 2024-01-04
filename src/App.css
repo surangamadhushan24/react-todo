@@ -1,0 +1,63 @@
+body{
+  background-color: rgb(52, 5, 77);
+  
+
+}
+
+.all{
+  width: 100%;
+  padding: auto;
+  height: auto;
+
+}
+.header{
+  color: white;
+  margin-left: 80px;
+}
+
+input{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  width: 400px;
+  height: 30px;
+  font-size: 20px;
+  border-style: none;
+}
+.add{
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+label{
+  color: white;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+ul{
+  list-style-type: none;
+ 
+}
+
+.list{
+  display: grid ;
+  grid-template-columns: 50px 50px;
+  column-gap: 80px;
+}
+
+li{
+  color: white;
+  font-size: 25px;
+  padding-right: 20px;
+  margin-bottom: 10px;
+ 
+
+}
+
+li button{
+  width: 80px;
+  height: 28px;
+  border-radius: 40px;
+  font-weight: bold;
+}
